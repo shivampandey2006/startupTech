@@ -1,0 +1,90 @@
+.navbar button:hover {
+    background: #e0e7ff;
+    text-align: center;
+}
+
+.home {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    color: white;
+}
+
+.home button {
+    background: white;
+    color: #4f46e5;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.home button:hover {
+    background: #e0e7ff;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.problem {
+    background: #eef2ff;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    padding: 25px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.contact {
+    background: #111827;
+    color: white;
+}
+
+.contact input,
+.contact textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 12px;
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+}
+
+.contact button {
+    background: #06b6d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact button:hover {
+    background: #0891b2;
+}
+
+footer {
+    background: #020617;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
